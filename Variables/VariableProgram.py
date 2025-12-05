@@ -10,7 +10,7 @@ print("Type Casting")
 print("** Manually convert values **")
 
 # type conversion
-
+# converting string number 2 to int 2
 a = int("2")
 b = 4.25
 
