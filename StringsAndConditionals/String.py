@@ -48,3 +48,36 @@ In backward counting the index would be:
 negString = "Apple"
 
 print(negString[-3:-1]) # will print pl since last index is not included in slicing
+
+# String Functions
+aString = "i am studying python."
+
+# .endswith("string value") function
+# returns true if the string ends with the substring we provided.
+print(aString.endswith("on."))
+
+# .capitalize() function
+# Capitalizes the first character, only works when specifically called, doesn't change the original string for all occurrences.
+print(aString.capitalize())
+print(aString) # the first letter here won't be capitalized and will print the original value.
+
+# we can set it to be capitalized each time by assigning the variable the capitalized value like
+aString = aString.capitalize() # now after this the first character will always be capitalized.
+print(aString)
+
+# .replace(oldvalue, newvalue) function
+print(aString.replace("y", "a")) # replaces y with a
+print(aString.replace("python", "java")) # replaces python with java
+
+# .find(word) function
+"""finds if the word exists in the string or not
+and if it does it returns the first index of the letter that word.
+And if the word doesn't exist it will return -1 as conceptually -1 is not real and tries to show out of bounds
+of the index. Negative indexes are mostly for slicing function."""
+print(aString.find("am")) # returns 2 since a is in index 2.
+print(aString.find("G")) # returns -1 since it is not in the string and not valid
+
+# .count(word) function
+"""Counts the occurence of the substring we provide"""
+print(aString.count("python")) # returns 1 since it only occurs one time in our string variable.
+print(aString.count("java")) # returns 0 since it doesn't exist in our string.
