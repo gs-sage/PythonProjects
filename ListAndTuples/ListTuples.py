@@ -48,3 +48,38 @@ print(fruit)
 """.insert(index, element) inserts element at a certain index"""
 fruit.insert(3, "pineapple") # inserts pineapple at the 3rd index
 print(fruit)
+
+""".remove(value) method removes the first occurrence of the value you provide"""
+fruit.insert(0, "pineapple")
+print(fruit) # will have two pineapple
+fruit.remove("pineapple")
+print(fruit) # should only have one after the .remove() method removes the first occurrence of pineapple
+
+""".pop(index) method removes particular value at an index"""
+fruit.pop(1)
+print(fruit)
+
+
+"""===Tuples==="""
+"""built in data type that lets us create immutable sequence of values"""
+tup = (2,1,3,1)
+print(type(tup))
+print(tup[0])
+# tup[0] = 5 # this is not allowed in tuples, and will throw an error, uncomment to try.
+print(tup[1:3]) # can also use slicing in tuples
+
+# can also create an empty tuple
+tup1 = ()
+print(tup1)
+print(type(tup1))
+
+tup2 = (1,) # need to keep comma to let python know this is a tuple, otherwise it will take the values as different type
+print(tup2)
+print(type(tup2))
+
+# Tuple functions
+""".index(element) method finds the first index occurence of the element"""
+print(tup.index(3)) # will give index 2 as output
+
+""".count(element) method counts the total occurrences of the element in the tuple"""
+print(tup.count(1)) # will give 2 output
