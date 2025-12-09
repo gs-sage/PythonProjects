@@ -58,18 +58,18 @@ With the try-except in place if the error comes up, it prints our statement with
 what caused the error."""
 
 try:
-    userInput = float(input("Enter the students marks: "))
+    user_input = float(input("Enter the students marks: "))
 
-    if(userInput>=0):
-        if(userInput>=90):
+    if(user_input>=0):
+        if(user_input>=90):
             print("Grade A")
-        elif(userInput<90 and userInput>=80):
+        elif(user_input<90 and user_input>=80):
             print("Grade B")
-        elif(userInput<80 and userInput>=70):
+        elif(user_input<80 and user_input>=70):
             print("Grade C")
-        elif(userInput<70 and userInput>=60):
+        elif(user_input<70 and user_input>=60):
             print("Grade D")
-        elif(userInput<60 and userInput>=0):
+        elif(user_input<60 and user_input>=0):
             print("Grade F")
     else:
         print("Please enter a valid number. ")
