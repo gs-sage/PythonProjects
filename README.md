@@ -1,6 +1,6 @@
 Python Projects
 
-***** Variables and Data Types ****
+**** Variables and Data Types ****
 - Hello World
 - Float Number Average
 - Compare Values
