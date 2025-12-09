@@ -1,19 +1,19 @@
 # program checks if the list contains a palindrome of elements
 
-exampleList = [1,2,3,2,4] # created an example list
+example_list = [1,2,3,2,4] # created an example list
 
-print(exampleList) # printed the list for easy debugging
+print(example_list) # printed the list for easy debugging
 
 """We are using the .copy() function here so that we get returned something.
 In this case that is the copy of the original list. Just using the .reverse() function
 doesn't work as the .reverse() function doesn't return anything to us."""
-copyExampleList = exampleList.copy() # used the .copy() function to copy the list
-copyExampleList.reverse() # reversed the copied list 
-print(copyExampleList) # printed the copied list for debugging
+copy_example_list = example_list.copy() # used the .copy() function to copy the list
+copy_example_list.reverse() # reversed the copied list 
+print(copy_example_list) # printed the copied list for debugging
 
 # checking if the original list is equal to the reversed copied list
 # if it is then we got a palindrome
-if(exampleList == copyExampleList):
+if(example_list == copy_example_list):
     print("The list contains plaindrome of elements.")
 else:
     print("The list doesn't contain palindrome of elements.")
