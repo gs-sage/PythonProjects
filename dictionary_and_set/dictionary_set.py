@@ -88,3 +88,69 @@ print(student)
 new_dict = {"state":"ok"}
 student.update(new_dict) # or can pass a dictionary that has the values
 print(student) # we can see the new values added to the end of the dictionary
+
+
+"""Set is the collection of the unordered items. Each element
+in the set must be unique and immutable."""
+# List and dictionaries can't be stored inside sets cause these have mutable(changeable) values.
+"""IMPORTANT: Set is mutable but the elements inside sets are immutable."""
+collection = {1,2,3,4}
+
+print(collection)
+print(type(collection))
+
+# if we create a new set with repeating values it will only print the distinct items and ignore duplicate values.
+new_collection = {1,2,2,2,"hello","world","world"}
+print(new_collection)
+
+# set doesn't follow any order
+# if we make a new collection again using the same values and add something it can print out values in completely different order.
+new_collection2 = {1,2,2,2,"hello","world","world",4}
+print(new_collection2) # output will be different in order
+
+# using len function on set also only prints the count of unique elements and ignores duplicates
+print(len(new_collection2))
+
+# creating an empty set
+empty_set = set() # syntax for empty set
+print(type(empty_set))
+
+# Set Methods
+
+""".add() method adds an element to the set"""
+empty_set.add(1)
+empty_set.add(2)
+empty_set.add(3)
+empty_set.add(4)
+empty_set.add(2)
+empty_set.add((1,2,3))
+empty_set.add("Yello")
+print(empty_set) # prints the unique value in set
+
+""".remove() method removes an element from the set"""
+empty_set.remove(2)
+print(empty_set) # will only show unique value after something is removed from set
+
+# if we try to remove a value that doesn't exist it gives an error
+# empty_set.remove(6) # gives an error, uncomment to check
+
+""".clear() method empties the set"""
+print(len(empty_set))
+empty_set.clear() # clears all values from set
+print(empty_set)
+print(len(empty_set)) # len will be 0 after clearing the set
+
+""".pop() removes a random value from the set"""
+collections = {"hello","college","world","coding","python"}
+print(collections.pop()) # removes a random value and prints the value to output
+
+# IMPORTANT Set Methods
+
+""".union(set2) method combines both set values and returns new set with unique values, ignores duplicates"""
+union_collection = collections.union(collection)
+print(union_collection) 
+
+""".intersection(set2) combines common values and returns new set"""
+intersection_collection = new_collection2.intersection(collections)
+print(intersection_collection)
+
