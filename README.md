@@ -22,3 +22,9 @@ Python Projects
 - Palindrome
 - Sort List
 - User movies
+
+**** Dictionary and Sets ****
+- Dictionary-Set
+- Sets Practice
+- Store Diff Values
+- Word Meaning
