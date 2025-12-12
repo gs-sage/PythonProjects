@@ -25,8 +25,9 @@ user_input2 = int(input("Enter a number: "))
 final_factorial = 1 # factorials means we are multiplying so if we use 0 the whole value becomes 0 so we use 1
 
 for j in range(1, (user_input2+1)):
-    print(f"Current final factorial: {final_factorial}")
-    print(f"Current J value: {j}")
+    print(f"Current final factorial: {final_factorial}") # for debugging
+    print(f"Current J value: {j}") # for debugging
     final_factorial = final_factorial * j # multiplying the iteration number to final factorial in each iteration
-    print(f"Final Factorial current: {final_factorial}")
+
+print(f"Final Factorial current: {final_factorial}")
 
