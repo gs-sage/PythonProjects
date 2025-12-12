@@ -21,13 +21,22 @@ def currency_conversion(currency):
     converted_currency = currency * conversion_rate
     return converted_currency
 
+# function that prints out if the number is odd or even
+def odd_even(number):
+    if(number%2==0):
+        return "EVEN"
+    else:
+        return "ODD"
+
 new_list = [1,2,3,4,5,6,7,8,9]
 
 print(len_list(new_list)) # prints the length of the list
 el_list(new_list) # prints the element in a list
 print()
-print(factorial(10)) # gets the factorial of a number
+print(factorial(5)) # gets the factorial of a number
 print(currency_conversion(1000)) # converts currency
+print(odd_even(10)) # will print even
+print(odd_even(5)) # will print odd
 
 
 
