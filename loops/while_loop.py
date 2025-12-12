@@ -60,8 +60,55 @@ while k<len(tuple_num):
         print(f"Your number {search_num} is in the list at index {k}.")
         break
         
+print()
 
+"""Break and Continue in loop"""
+# Break is used to terminate the loop when encountered
+# Continue terminates execution in the current iteration and continues execution of the loop with the next iteration
+
+p = 0
+while p<=5:
+    if(p==2):
+        p+=1
+        continue # will skip the rest of the loop parts after this and go to next iteration
+
+    print("Will print when p is not equal to 2 but when it is 2 it will skip")
+
+    if(p==4):
+        print("Breaking loop when p is equal to 4 so 4 and 5 won't get printed to output")
+        break # this will break the loop and 5 will never get printed
+
+    print(p)
+    p+=1
+
+print()
+
+# using while loop and continue to get even and odd numbers
+print("Getting even numbers using while loop and continue")
+
+"""IMPORTANT : if we switch the print and the increment places it will print odd and even in the
+different loops"""
+
+q=1
+
+# this will get even numbers
+while q<=10:
+    if(q%2==0):
+        q+=1
+        continue
+    q+=1
+    print(q)
+
+
+# and if we change the if statement to not equla 0 it will print odd numbers
+
+r=1
+
+while r<=10:
+    if(r%2!=0):
+        r+=1
+        continue
+
+    r+=1
+    print(r) # prints odd cause we are incrementing before printing
     
-
-
-
