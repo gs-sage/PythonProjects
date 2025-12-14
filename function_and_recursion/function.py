@@ -64,6 +64,5 @@ print(find_avg(num_list))
 def calc_prod(a=1,b=2): # the default values are 1 and 2 for arguments
     return(a*b)
 
-print(calc_prod()) # will give an output since we have default arguments
-    
+print(calc_prod()) # will give an output since we have default arguments   
 
