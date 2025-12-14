@@ -2,8 +2,11 @@
 Every work done by loops can be done by recursion and every work done
 by recursion can be done by loops."""
 
+# IMPORTANT Base case are very important in recursion
+# They tell the function when to stop
+
 def print_num(num): # my custom function that prints numbers
-    if(num==0): # logic to stop when number is 0
+    if(num==0): # logic to stop when number is 0, this is called a base case
         return
     print(num) # printing the number 
     print_num(num-1) # calling the function inside the function 
@@ -42,6 +45,15 @@ each call stack. So, in the above function where we print END at the end, will o
 for each function call before the num value was equal to 0 after the value reaches 0 for num.
 """
 
+# Factorial in recursion
+# function that provides factorial via recursion
+def factorial_num(num):
+    if(num==0 or num==1):
+        return 1
+    else:
+        return num * factorial_num(num-1)
+
+print(factorial_num(5))
 
 
 
