@@ -22,7 +22,6 @@ print 2
 print_num(1)
 print 1
 print_num(0)
-
 """
 
 
