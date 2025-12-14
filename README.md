@@ -28,3 +28,10 @@ Python Projects
 - Sets Practice
 - Store Diff Values
 - Word Meaning
+
+*** Loops ***
+- For loop examples
+- For loop practice examples
+- Notes on for loop
+- Practice for loops
+- While loops
