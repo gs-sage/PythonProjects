@@ -24,5 +24,5 @@ w : open for writing, truncating the file first
 x : create a new file and open it for writing
 a : open for writing, appending to the end of the file if it exists
 b : binary mode
-t : text mode
+t : text mode (default mode when opening a file)
 + : open a disk file for updating(reading and writing)"""
