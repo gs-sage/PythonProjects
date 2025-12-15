@@ -48,7 +48,7 @@ empty lines cause, when you read a file, the cursor/pointer has already read the
 end of the file and the only thing at the end of the file is the newline character(\n), so the
 readline() function now reads the next line characters and just prints empty lines.
 
-Visually they would be somethine like
+Visually they would be somethine like if a file had 3 lines with either sentences or characters:
 |   abc     | # so when we use f.read() the whole file is read, that is
 |   def     | # abc\ndef\nghi\n <-- and the cursor is at the end
 |___ghi_____| # and when readline() comes and reads it now it just reads the newline character
