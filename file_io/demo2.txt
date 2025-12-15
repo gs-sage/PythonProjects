@@ -1,1 +1,2 @@
-New file created by python with the write function since it didn't exist before.
+This is the w+ function working, It will overwrite what is in the file.
+This will get added to the file
