@@ -1,2 +1,1 @@
-I am learning 
-Python from YouTube
+This is a line written with the write feature in file i/o in python.
