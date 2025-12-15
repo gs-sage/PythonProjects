@@ -1,4 +1,4 @@
-Python Projects
+Python Projects [Still in progress, will add more details and explanations in future releases]
 
 **** Variables and Data Types ****
 - Hello World
@@ -35,3 +35,7 @@ Python Projects
 - Notes on for loop
 - Practice for loops
 - While loops
+
+*** Functions and Recursion ***
+- Practice examples for both topics
+
