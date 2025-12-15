@@ -26,3 +26,23 @@ calls add (0) -- hits base case returns 0 and now it sends it back upwards"""
 the value is sent back for evaluation."""
 
 print(add_num(2))
+
+
+# creating a recursive function to print elements in a list
+def print_list(list, idx):
+    if(idx == len(list)):
+        return
+    print(list[idx])
+    print_list(list, idx+1) 
+
+new_list = [1,2,3]
+print_list(new_list,0)
+
+"""Notes on the above recursive function:
+The function takes 2 parameters, a list and an index.
+We want the index value to be 0 to start always cause we don't know how big the list may be. 
+But we can always keep a logic to stop the function via the len command to get the length of the function.
+So, that would also be our base logic to stop the function, once it hits the length of the function stop it, 
+otherwise keep adding 1 to the index value.
+the first thing the function does is print the value of list at index 0 and then it calls itself, each time
+increasing the value of index by 1 till the value of index is equal to the length of the list and then it stops."""
