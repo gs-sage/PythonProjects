@@ -1,4 +1,4 @@
-Python Projects
+Python Projects [Still in progress, will add more details and explanations in future releases]
 
 **** Variables and Data Types ****
 - Hello World
