@@ -35,3 +35,7 @@ Python Projects [Still in progress, will add more details and explanations in fu
 - Notes on for loop
 - Practice for loops
 - While loops
+
+*** Functions and Recursion ***
+- Practice examples for both topics
+
