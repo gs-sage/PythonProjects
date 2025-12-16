@@ -1,1 +1,1 @@
-This is a line written with the write feature in file i/o in python.
+Overwriting the data with the write mode in python.
