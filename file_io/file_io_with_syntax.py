@@ -7,3 +7,10 @@ the with syntax takes care of it automatically.
 with open("demo.txt","r") as f:
     data = f.read()
     print(data)
+
+with open("demo.txt","w") as f:
+    f.write("Overwriting the data with the write mode in python.")
+
+with open("demo.txt","r") as f:
+    data = f.read()
+    print(data)
