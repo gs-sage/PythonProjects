@@ -24,3 +24,21 @@ with open("practice.txt","r") as f:
         print(f"It exists at index {data.find("learning")}.")
     else:
         print("No it doesn't.")
+
+# Practice 4: function to find which line the word above exists.
+def check_for_line():
+    word = "learning"
+    line_count = 1 # cause line starts at 1
+    data = True # creating a true state for data so once the lines are over it becomes false
+    with open("practice.txt","r") as f:
+        while data: # data stays true till it has lines with values, once an empty line comes it becomes false
+            data = f.readline()
+            if(word in data):
+                print(f"{word} found at line {line_count}.")
+                break
+            # else:
+            #     print("Word not found") # will print for first line since the file only has the word on line 2, uncomment to confirm
+
+            line_count+=1
+
+check_for_line() # calling the function
