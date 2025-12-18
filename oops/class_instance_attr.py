@@ -20,4 +20,5 @@ s1 = Student("Gaurav")
 print(s1.college_name)
 
 # Methods
-"""In classes it can store two things. One is data and the other is methods."""
+"""In classes it can store two things. One is data(attributes) and the other is methods."""
+"""Methods are basically functions that belong to objects and are created inside the class."""
