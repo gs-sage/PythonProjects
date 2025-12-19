@@ -20,7 +20,7 @@ print(s1.name)
 
 """
 # creating class
-# Class Student:
+# class Student:
 #   def __init__(self, fullname):
         print(self) # will print the object pointer in memory
 #       self.name = fullname
