@@ -31,6 +31,9 @@ print(car1.color)
 3. Multiple Inheritance"""
 
 # Single Inheritance
+"""This is what we did above with the Car and ToyotaCar class where ToyotaCar class inherited the Car class."""
+
+# Multi-level Inheritance
 """We can continue the above pattern and create another class that inherits the ToyotaCar class.
 This is an example of single inheritance since now this new class will have properties of both the Car and ToyotaCar class."""
 
