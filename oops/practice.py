@@ -21,3 +21,10 @@ class Account:
 acc = Account()
 acc.debit(100)
 acc.credit(150)
+
+# ask = int(input("Give me a number: "))
+# print(ask)
+# print(type(ask))
+
+a =2
+print(f"this is number {a}")
