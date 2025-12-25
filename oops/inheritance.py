@@ -46,3 +46,4 @@ car2.start() # function from Car class
 car2.stop()
 print(car2.type) # from Venza class
 print(car2.brand) # this gives an error since the brand is in the initializer of the ToyotaCar class and is not a separate function or variable.
+
