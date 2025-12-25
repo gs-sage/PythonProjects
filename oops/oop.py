@@ -32,3 +32,9 @@ print(s1.name)
 
 # The self parameter is a reference to the current instance of the class, and is used to
 # access variables that belong to the class.
+
+
+"""Private(like) attributes and methods:
+Conceptual Implementations in python.
+Private attributes and methods are meant to be used only within the classs and are not accessible
+from outside the class."""
