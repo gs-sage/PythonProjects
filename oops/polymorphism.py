@@ -9,4 +9,31 @@ print([1,2,3] + [4,5,6]) # merges list
 """The above examples are called implicit overloading since the classes for them have
 already been defined in python."""
 
+print()
+print("Creating a class to add complex numbers")
 
+"""Dunder functions are functions with double underscores"""
+
+class Complex:
+    def __init__(self, real, imaginary):
+        self.real = real
+        self.imaginary = imaginary
+    
+    def show_number(self):
+        print(f"{self.real}i + {self.imaginary}j")
+
+    def add_complex_number(self, second_object): # self is the object itself and we add another object as variable to add their values
+        new_real = self.real + second_object.real
+        new_imaginary = self.imaginary + second_object.imaginary
+        return Complex(new_real, new_imaginary)
+
+
+
+num1 = Complex(1,3)
+num1.show_number()
+
+num2 = Complex(4,5)
+num2.show_number()
+
+add_complex = num1.add_complex_number(num2) # here num1  is self since that is the object calling the add complex number function and we provide num2 as the second object
+add_complex.show_number()
