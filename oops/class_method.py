@@ -37,7 +37,12 @@ p1.change_class_name("John")
 print(Person.name) # will print new name for class attribute
 
 p1.change_class_name_v2("Greg")
-print(Person.name)
+print(Person.name) # will print new name for class attribute
 
 p1.change_name_class("Joe Willis")
-print(Person.name)
+print(Person.name) # will print new name for class attribute
+
+"""Types of Methods
+1. Static methods(methods that don't have a argument)
+2. Class methods(methods that use cls)
+3. Instance Methonds(methods that use self)"""
