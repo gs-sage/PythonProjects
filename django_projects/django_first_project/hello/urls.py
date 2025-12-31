@@ -13,5 +13,7 @@ a name. It is optional but having a name comes in handy for other purposes so
 it is recommended to have it."""
 
 urlpatterns = [
-    path("", views.index, name="index") 
+    path("", views.indexs, name="index"),
+    path("gaurav", views.gaurav, name="gaurav"),
+    path("<str:name>", views.greet, name="greet"), 
 ]
