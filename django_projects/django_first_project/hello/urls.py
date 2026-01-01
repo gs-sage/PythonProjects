@@ -15,6 +15,7 @@ urlpatterns = [
     # path("", views.index, name="index"),
     path("gaurav", views.gaurav, name="gaurav"),
     path("rend_file", views.rend_file, name="rend_file"),
+    path("<str:name>", views.greet2, name="greet2"),
     path("<str:name>", views.greet, name="greet"),
     
 ]
