@@ -1,41 +1,44 @@
-Python Projects [Still in progress, will add more details and explanations in future releases]
+# PythonProjects 🐍
 
-**** Variables and Data Types ****
-- Hello World
-- Float Number Average
-- Compare Values
-- Square Area
-- Two Sum Numbers
+A learning repo where I practice Python fundamentals, problem-solving, and small projects (including my first Django app).  
+This is intentionally hands-on: short scripts, focused exercises, and incremental improvements as I learn.
 
-**** Strings and Conditionals ****
-- Check Multiple
-- Conditionals
-- Count Length
-- Find Word
-- Greatest Number
-- Odd Even
-- String
+---
 
-**** List and Tuples ****
-- Count Grades
-- List Tuples
-- Palindrome
-- Sort List
-- User movies
+## What you’ll find here
 
-**** Dictionary and Sets ****
-- Dictionary-Set
-- Sets Practice
-- Store Diff Values
-- Word Meaning
+This repo is organized by topic so I can quickly revisit concepts and track progress:
 
-*** Loops ***
-- For loop examples
-- For loop practice examples
-- Notes on for loop
-- Practice for loops
-- While loops
+- **Fundamentals**: variables, data types, strings, conditionals
+- **Core Python**: lists/tuples, dictionaries/sets, loops, functions, recursion
+- **File I/O**: reading/writing files + practice exercises
+- **OOP**: classes, inheritance, constructors, basic design
+- **HackerRank practice**: problem-solving reps and patterns
+- **Django (beginner)**: my first Django project/app setup
 
-*** Functions and Recursion ***
-- Practice examples for both topics
+---
 
+## Repo structure
+
+PythonProjects/
+├── variable_and_data_types/
+├── string_and_conditionals/
+├── list_and_tuples/
+├── dictionary_and_set/
+├── loops/
+├── function_and_recursion/
+├── file_io/
+├── oops/
+├── hackerrank_projects/
+└── django_projects/
+    └── django_first_project/
+
+Getting started
+
+Requirements
+- Python 3.x (recommended: latest stable)
+- Optional: venv for a clean environment
+
+Clone
+- git clone https://github.com/gs-sage/PythonProjects.git
+- cd PythonProjects
