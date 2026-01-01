@@ -4,7 +4,7 @@ from django.http import HttpResponse
 
 # Create your views here.
 # creating a function that returns a http response
-def index(request): # only having the render here for index.html seems to work
+def index(request):
     return render(request, "hello/index.html")
 
 def gaurav(request):
@@ -14,6 +14,8 @@ def gaurav(request):
 def greet(request, name):
     return HttpResponse(f"Hello, {name}!") # returns name with spaces as well
 
-# creating a function that renders a whole file, this for some reason doesn't work
+# creating a function that renders a whole file
+# this works when there aren't two paths pointing to the same file, if so comment one out and use only one.
+# the urls path is in order so what comes first is used, so urls need to be planned in order of precedence
 def rend_file(request):
     return render(request, "hello/index.html")
