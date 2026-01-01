@@ -21,5 +21,6 @@ from hello import views
 urlpatterns = [
     path("", views.gaurav, name="gaurav"),
     path('admin/', admin.site.urls),
-    path('hello/', include("hello.urls"))
+    path('hello/', include("hello.urls")),
+    path('newyear/', include("newyear.urls"))
 ]
