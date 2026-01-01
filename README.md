@@ -21,17 +21,17 @@ This repo is organized by topic so I can quickly revisit concepts and track prog
 ## Repo structure
 
 PythonProjects/
-├── variable_and_data_types/
-├── string_and_conditionals/
-├── list_and_tuples/
-├── dictionary_and_set/
-├── loops/
-├── function_and_recursion/
-├── file_io/
-├── oops/
-├── hackerrank_projects/
-└── django_projects/
-    └── django_first_project/
+- ├── variable_and_data_types/
+- ├── string_and_conditionals/
+- ├── list_and_tuples/
+- ├── dictionary_and_set/
+- ├── loops/
+- ├── function_and_recursion/
+- ├── file_io/
+- ├── oops/
+- ├── hackerrank_projects/
+- └── django_projects/    
+    - └── django_first_project/
 
 Getting started
 
