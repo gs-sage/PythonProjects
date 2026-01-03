@@ -1,23 +1,30 @@
 # creating an empty list to hold values
-new_list = []
+student = []
 
 for i in range(int(input())):
     name = input()
     score = float(input())
-    new_list.append([name, score])
+    student.append([name, score])
 
-print(new_list)
+print(student)
 
-for new_list_element in new_list:
-    for inner_new_list_element in new_list_element:
-        print(inner_new_list_element)
-        if(isinstance(inner_new_list_element, float)):
-            print("****************")
-            print(inner_new_list_element)
+scores = [score[1] for score in student]
+lowest = min(scores)
 
-# for j in range(len(new_list)):
-#     for ele in new_list:
-#         for inner_el in ele:
-#             if(isinstance(inner_el, float)):
+print(scores)
+print(lowest)
 
-# the program is not yet complete
+above_lowest = [ascore for ascore in scores if ascore > lowest]
+second_lowest = min(above_lowest)
+
+print(above_lowest)
+print(second_lowest)
+
+student_name = []
+
+for i in student:
+    if(i[1] == second_lowest):
+        student_name.append[i[0]]
+
+for n in sorted(student_name):
+    print(n)
