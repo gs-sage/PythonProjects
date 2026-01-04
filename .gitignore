@@ -1,2 +1,4 @@
 # python virtual environment
 .venv/
+sqlite_practice/*.tmp
+sqlite_practice/~*
